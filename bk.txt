@@ -1,0 +1,5 @@
+for(var i = 0; i < treeNodes.length; i++) {
+        treeNodes[i].highlight = false;
+        zTreeObj.setting.view.fontCss = NonodeHighLightJson;//重置为高亮
+        zTreeObj.updateNode(treeNodes[i]);
+    }
